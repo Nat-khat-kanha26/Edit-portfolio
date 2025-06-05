@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scroll Animation Navbar + Slider</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+      <div class="nav-menu">
+        <ul class="navbar-nav">
+          <li><a class="home" data-target="home" href="#">Home</a></li>
+          <li><a class="portfolio" data-target="portfolio" href="#">Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home_container">
+      <div class="home_logo">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <div class="container">
+        <div>
+          <h1>Kanha Behera</h1>
+          <h1>Odisa🇮🇳</h1>
+        </div>
+        <div class="details">
+          <p>Hey, I am an Editor with 5 years of experience.</p>
+          <p>i am using capcut and alight motion for editing on mobile. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="portfolio_container">
+      <div class="slider">
+        <!-- Repeat these slides -->
+        <div class="slide">
+          <h2>VSL Edit</h2>
+          <video controls>
+            <source src="videos/vsledit.mp4" type="video/mp4">
+          </video>
+           <p class="price">1.30min = Price: ₹500</p>
+           <p class="price">1min = Price: ₹450</p>
+           <p class="price">45sec = Price: ₹400</p>
+           <p class="price">30sec = Price: ₹350</p>
+        </div>
+
+        <div class="slide">
+          <h2>manga Edit</h2>
+          <video controls>
+            <source src="videos/mangaedit.mp4" type="video/mp4">
+          </video>
+           <p class="price">1min = Price: ₹1000</p>
+           <p class="price">45sec = Price: ₹750</p>
+           <p class="price">30sec = Price: ₹500</p>
+           <p class="price">15sec = Price: ₹300</p>
+        </div>
+
+        <div class="slide">
+          <h2>gym Edit</h2>
+          <video controls>
+            <source src="videos/gymedit.mp4" type="video/mp4">
+          </video>
+          <p class="price">45sec = Price: ₹400</p>
+          <p class="price">30sec = Price: ₹350</p>
+          <p class="price">15sec = Price: ₹300</p>
+          </div>
+
+        <div class="slide">
+          <h2>Cinematic Edit</h2>
+          <video controls>
+            <source src="videos/cinematic.mp4" type="video/mp4">
+          </video>
+           <p class="price">1min = Price: ₹500</p>
+           <p class="price">45sec = Price: ₹400</p>
+           <p class="price">30sec = Price: ₹300</p>
+           <p class="price">15sec = Price: ₹200</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
